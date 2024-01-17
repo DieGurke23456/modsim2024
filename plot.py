@@ -91,7 +91,7 @@ def main(file_path):
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) != 2:
-        print("Usage: python script.py <file_path>")
+        print("Usage: python plot.py <file_path>")
     else:
         # Get the file path from the command line
         file_path_arg = sys.argv[1]
